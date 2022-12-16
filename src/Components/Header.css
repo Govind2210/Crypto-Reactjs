@@ -1,0 +1,77 @@
+
+.preview__header{
+    width: 100%;
+    top: 0 !important;
+    position: fixed;
+    font-size: 12px;
+    height: 54px;
+    background-color: #262626;
+    z-index: 1000;
+    line-height: 54px;
+    margin-bottom: 1px;
+}
+
+ .header-envato_market{
+    display: inline-block;
+    position: absolute;
+    /* top: 18px; */
+    text-indent: -9999px;
+    height: 18px;
+    width: 152px;
+    background-size: 152px 18px;
+}
+.preview__envato-logo{
+    float: left;
+    padding: 0 20px;
+    color: white !important;
+}
+
+.preview__envato-logo a{
+    display: inline-block;
+    position: absolute;
+    top: 18px;
+    text-indent: -9999px;
+    height: 18px;
+    width: 152px;
+    background: url(https://author.envato.com/assets/images/logos/envato-b2317d4561dab4650d4aafd169b5203e17c487f072946a0cdd64d8df621d1a53.svg);
+    background-size: 152px 18px;
+
+}
+.preview__action--buy, .preview__action--close {
+    display: inline-block;
+    padding: 0 20px;}
+
+.e-btn--3d.-color-primary {
+        -webkit-box-shadow: 0 2px 0 #6f9a37;
+        box-shadow: 0 2px 0 #6f9a37;
+        position: relative;
+}
+
+.e-btn.-color-primary, .-color-primary.e-btn--3d, .-color-primary.e-btn--outline {
+    background-color: #82b440;
+}
+
+.e-btn.-size-s, .-size-s.e-btn--3d, .-size-s.e-btn--outline, .e-btn, .e-btn--3d, .e-btn--outline {
+    font-size: 14px;
+    padding: 5px 20px;
+    line-height: 1.5;
+}
+
+.e-btn, .e-btn--3d, .e-btn--outline {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 0;
+    border: none;
+    border-radius: 4px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.preview__actions {
+    float: right;
+}

@@ -1,0 +1,82 @@
+
+.Navbar_navWrapper__8xnEu {
+    width: 100%;
+    top: 7.45%;
+    padding: 10px 0;
+    background: rgba(0,0,20,.9);
+    /* top: 1; */
+    position: fixed;
+    border-bottom: 1px solid rgba(50,50,50,.5);
+    z-index: 40;
+}
+
+.Navbar_navbar__66x_3 {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Navbar_logoSection__qS2Wi {
+    flex: 1 1;
+}
+
+.Navbar_menuSection__ebSqo, .Navbar_menu__66zmq {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Navbar_menuSection__ebSqo {
+    flex: 1.5 1;
+}
+
+.Navbar_menu__66zmq {
+    flex: 1 1;
+    list-style: none;
+    padding-right: 25px;
+    border-right: 1px solid #2f2f2f;
+}
+.Navbar_menuSection__ebSqo, .Navbar_menu__66zmq {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    color: white;
+}
+
+.Navbar_connectBtn__hH4UZ {
+    margin-left: 25px;
+    background: #ffb43c;
+    padding: 4px 12px;
+    color: #000;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: Kanit;
+    transition: .2s ease-out;
+}
+
+.Navbar_menuItem__GjVIB {
+    font-size: 14px;
+    font-weight: 300;
+    color: #fff;
+    cursor: pointer;
+}
+
+.Navbar_logoImage__yXbIh {
+    height: 40px;
+    width: 60px;
+    float: left;
+    /* padding-right: 20%; */
+}
